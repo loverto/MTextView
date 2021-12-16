@@ -1,2 +1,3 @@
 rootProject.name = "MTextView"
 include ':app'
+include ':compoents'

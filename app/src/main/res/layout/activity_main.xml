@@ -12,9 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-		        <com.example.mtextview.MTextView android:id="@+id/mtextview"
-		         android:layout_width="match_parent"
-		         android:layout_height="match_parent"/>
+		        <com.jwj.compoents.MTextView
+                    android:id="@+id/mtextview"
+		            android:layout_width="match_parent"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+		            android:layout_height="match_parent"/>
         </ScrollView>
         <ScrollView 
             android:layout_width="match_parent"

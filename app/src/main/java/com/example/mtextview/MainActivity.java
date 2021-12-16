@@ -9,6 +9,8 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.ImageSpan;
 import android.widget.TextView;
 
+import com.jwj.compoents.MTextView;
+
 public class MainActivity extends Activity
 {
 	private MTextView mTextView;
@@ -20,8 +22,8 @@ public class MainActivity extends Activity
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_main);
-		mTextView = (MTextView) this.findViewById(R.id.mtextview);
-		textView = (TextView) this.findViewById(R.id.textview);
+		mTextView = this.findViewById(R.id.mtextview);
+		textView = this.findViewById(R.id.textview);
 	    
         
 	    Test();
